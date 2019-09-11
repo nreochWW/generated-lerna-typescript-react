@@ -1,7 +1,7 @@
 {
   "name": "example-typescript-react",
   "description": "An Example component using the lerna-typescript-react generator",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
