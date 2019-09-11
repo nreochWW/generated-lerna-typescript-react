@@ -1,7 +1,7 @@
 {
   "name": "example-2-typescript-react",
   "description": "Another Example component using lerna-typescript-react geneator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
@@ -9,6 +9,6 @@
     "legacy": "webpack --config legacy/webpack.config.js"
   },
   "dependencies": {
-    "example-typescript-react": "0.0.2"
+    "example-typescript-react": "^0.0.3"
   }
 }
