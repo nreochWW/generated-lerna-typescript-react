@@ -1,7 +1,7 @@
 import * as React from "react";
 import styled from "styled-components";
 
-export interface ExampleTypescriptReactProps {
+export interface Example2TypescriptReactProps {
   compiler: string;
   framework: string;
 }
@@ -11,12 +11,12 @@ const Wrapper = styled.div`
   padding: 10px;
 `;
 
-const ExampleTypescriptReact = (props: ExampleTypescriptReactProps) => (
+const Example2TypescriptReact = (props: Example2TypescriptReactProps) => (
   <Wrapper>
     <h1>
-      Example: {props.compiler} and {props.framework}!
+      Another Example: {props.compiler} and {props.framework}!
     </h1>
   </Wrapper>
 );
 
-export default ExampleTypescriptReact;
+export default Example2TypescriptReact;

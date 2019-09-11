@@ -1,0 +1,45 @@
+Arguments: 
+  /Users/nigel.reoch/.nvm/versions/node/v10.16.3/bin/node /Users/nigel.reoch/.nvm/versions/node/v10.16.3/bin/yarn install --mutex network:42424 --non-interactive
+
+PATH: 
+  /Users/nigel.reoch/nigel-development/generators/generated-lerna-typescript-react/packages/Example2TypescriptReact/node_modules/.bin:/Users/nigel.reoch/nigel-development/generators/generated-lerna-typescript-react/packages/node_modules/.bin:/Users/nigel.reoch/nigel-development/generators/generated-lerna-typescript-react/node_modules/.bin:/Users/nigel.reoch/nigel-development/generators/node_modules/.bin:/Users/nigel.reoch/nigel-development/node_modules/.bin:/Users/nigel.reoch/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/Users/nigel.reoch/.nvm/versions/node/v10.16.3/bin:/var/folders/7q/fl711l2d3j15wmmcyd9wkz540000gp/T/yarn--1568214403234-0.001479574861072308:/Users/nigel.reoch/nigel-development/generators/generated-lerna-typescript-react/node_modules/.bin:/Users/nigel.reoch/.config/yarn/link/node_modules/.bin:/Users/nigel.reoch/.nvm/versions/node/v10.16.3/libexec/lib/node_modules/npm/bin/node-gyp-bin:/Users/nigel.reoch/.nvm/versions/node/v10.16.3/lib/node_modules/npm/bin/node-gyp-bin:/Users/nigel.reoch/.nvm/versions/node/v10.16.3/bin/node_modules/npm/bin/node-gyp-bin:/Users/nigel.reoch/.nvm/versions/node/v10.16.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.16.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/example-typescript-react: Not found
+      at Request.params.callback [as _callback] (/Users/nigel.reoch/.nvm/versions/node/v10.16.3/lib/node_modules/yarn/lib/cli.js:66830:18)
+      at Request.self.callback (/Users/nigel.reoch/.nvm/versions/node/v10.16.3/lib/node_modules/yarn/lib/cli.js:140464:22)
+      at Request.emit (events.js:198:13)
+      at Request.<anonymous> (/Users/nigel.reoch/.nvm/versions/node/v10.16.3/lib/node_modules/yarn/lib/cli.js:141436:10)
+      at Request.emit (events.js:198:13)
+      at IncomingMessage.<anonymous> (/Users/nigel.reoch/.nvm/versions/node/v10.16.3/lib/node_modules/yarn/lib/cli.js:141358:12)
+      at Object.onceWrapper (events.js:286:20)
+      at IncomingMessage.emit (events.js:203:15)
+      at endReadableNT (_stream_readable.js:1145:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
+
+npm manifest: 
+  {
+  	"name": "example-2-typescript-react",
+  	"description": "Another Example component using lerna-typescript-react geneator",
+  	"version": "0.0.0",
+  	"main": "lib/index.js",
+  	"license": "MIT",
+  	"dependencies": {
+  		"example-typescript-react": "^0.1.0"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

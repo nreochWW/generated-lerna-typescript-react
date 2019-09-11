@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ExampleTypescriptReact package tests matches snapshot 1`] = `
+exports[`Example2TypescriptReact package tests matches snapshot 1`] = `
 <styled.div>
   <h1>
-    Example: 
+    Another Example: 
     TypeScript
      and 
     React
