@@ -7,5 +7,8 @@
   "scripts": {
     "tsc": "tsc",
     "legacy": "webpack --config legacy/webpack.config.js"
+  },
+  "dependencies": {
+    "example-typescript-react": "0.0.2"
   }
 }
